@@ -87,6 +87,7 @@ class WebScraper:
         driver = webdriver.Chrome(chrome_options = chromeOptions, executable_path = ChromeDriverManager().install())
         driver.get(self.url)
         htmlText = driver.page_source
+        driver.close()
         '''
         #This block uses requests
         html = requests.get(self.url, headers = self.headers)
