@@ -136,4 +136,4 @@ for file in os.listdir('./cogs'):
     if file.endswith('.py') and file != 'webscraper.py':
         client.load_extension(f'cogs.{file[:-3]}')
 
-client.run('Insert bot key here')
+client.run(live)
