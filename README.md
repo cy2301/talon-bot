@@ -19,6 +19,8 @@ Mention Talon Bot with an @. IE: @Talon Bot \<command\>
   - The starting items for Talon.
 - Boots
   - Boots options for Talon.
+- Matchups
+  - Advice on the most common middle lane matchups for Talon. Included matchups are mentioned in the code.
 # Stats command
 Accesses data from the site https://u.gg and gets Talon's winrate, pickrate, and banrate. Region, rank, and role can be customized by simply adding it after the command. 
 IE: @Talon Bot stats NA diamond jg -> returns the stats for Jungle Talon in NA Diamond+.
