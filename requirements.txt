@@ -6,5 +6,6 @@ discord.py==1.7.3
 nest-asyncio==1.5.1
 
 #selenium==3.141.0 uncomment if using selenium for stats command
+#webdriver-manager==3.4.2 uncomment if using selenium for stats command
 #requests==2.22.0 uncomment if using requests for stats command
 #beautifulsoup4==4.7.1 uncomment for stats command
