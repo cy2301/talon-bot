@@ -1,0 +1,11 @@
+async-timeout==3.0.1
+#Core
+discord.py==1.7.3
+
+#Only needed if you're running in Spyder or with Jupyter Notebook
+
+nest-asyncio==1.5.1
+
+#selenium==3.141.0 uncomment if using selenium for stats command
+#requests==2.22.0 uncomment if using requests for stats command
+#beautifulsoup4==4.7.1 uncomment for stats command
