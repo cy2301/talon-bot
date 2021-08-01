@@ -2,7 +2,7 @@
 A discord bot created for the purpose of answering frequently asked questions about the champion Talon in League of Legends. Advice given by the bot is written by several Diamond ranked Talon mains.
 
 # Commands
-Mention Talon Bot with an @. IE: @Talon Bot <command>
+Mention Talon Bot with an @. IE: @Talon Bot \<command\>
 - Conq
   - Displays the runes that players running Conqueror Talon should take.
 - Elec
