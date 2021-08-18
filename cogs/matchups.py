@@ -281,12 +281,14 @@ class Matchups(commands.Cog):
     async def katarina(self,ctx):
         embed = discord.Embed(title = 'Katarina', description = '**Intermediate**', color = discord.Color.blue())
         embed.add_field(name = 'Pre-6', 
-                        value = 'Katarina is a weak laner but scales hard and snowballs hard. You can start W and get poke on her or start Q and AA > mQ > AA early. She will usually\
+                        value = 'Katarina is weak level 1-2 but post-3, it becomes a skill matchup. You can start W and get poke on her or start Q and AA > mQ > AA early. She will usually\
  start Q level 1, so stand away from minions about to die since she will use Q to CS. If she E\'s to her dagger, AA > mQ > AA and hold W for when she E\'s back. Be careful of\
- throwing W and having her E behind you. Generally, just keep an eye out for where her daggers land and stay out of range out of them. Don\'t give her free trades.',
+ throwing W and having her E behind you, if you miss W and give her a chance to engage, you will mostly lose the trade heavily or die.\
+ Generally, just keep an eye out for where her daggers land and stay out of range out of them. Don\'t give her free trades.',
                         inline = False)
         embed.add_field(name = 'Post-6',
-                        value = 'You can use R to run out of her R and then full combo her. Generally, you want to just shove and start to outroam her.',
+                        value = 'If she is ahead, she can easily all-in you. Use R to and E to run away. Generally, you want to just shove and look to outroam her. If she is even, then pay attention to where her daggers are and ensure you avoid as many as you can. You usually want to combo with melee Q, rather than ranged Q.\
+ If she is behind, then abuse the pressure you get and look to outroam her.',
                         inline = False)
         await ctx.send(embed = embed)
         
@@ -641,7 +643,7 @@ class Matchups(commands.Cog):
     async def yasuo(self,ctx):
         embed = discord.Embed(title = 'Yasuo', description = '**Intermediate**', color = discord.Color.blue())
         embed.add_field(name = 'Pre-6', 
-                        value = 'Before trading, you want to auto or W him to get rid of his passive shield first. Do not take extended trades with him lvl 1 and instead focus on getting level 2.\
+                        value = 'Before trading, you want to auto or W him to get rid of his passive shield first. If you plan on fighting him level 1, you should start W and take DB. If you can, W him for 2 stacks, disengage and then refresh your passive with an AA before W\'ing again and proccing passive. Otherwise, do not take extended trades with him lvl 1 and instead focus on getting level 2.\
  When he E\'s by for trades, AA > mQ > AA and try to match his autos. Lvl 3+, try not to fight him if his windwall is up. You can bait windwall\
  by walking up and pretending to W. If he has Q3 up or you missed W2, respect his engage and back away from the wave and him.',
                         inline = False)
