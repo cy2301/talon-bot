@@ -180,9 +180,6 @@ class GeneralCommands(commands.Cog):
         embed3.add_field(name = 'Serylda\'s Grudge', 
                          value = 'Grants +30% armor pen and haste. Abilities apply 30% slow on all enemies for 1 second. Provides\
  strong pen and gap close against mobility targets. Build this if you\'re dealing with enemies stacking armor.',inline = False)
-        embed3.add_field(name = 'Lord Dominiks\' Regards', 
-                         value = 'Grants +35% armor pen and bonus (0-15)% physical damage based upon maximum health difference.\
- Build this if the enemy has a substantial health difference over you, you need armor pen, and you don\'t need the haste of Serylda\'s.', inline = False)
         embed3.add_field(name = 'Maw of Malmortius',
                          value = 'Grants AD and MR. Gives a lifeline against magic damage. Generally inefficient for what it does, this is only really an acceptable option into 3+ heavy ap damage champs.',
                          inline = False)
