@@ -28,7 +28,7 @@ class Matchups(commands.Cog):
                 matchup = jmatch[jalias[splitMessage]]
                 embed = discord.Embed(title = jalias[splitMessage], description = matchup['difficulty'], color = discord.Color.blue())
                 embed.add_field(name = 'Pre-6', value = matchup['pre-6'], inline = False)
-                embed.add_field(name = 'Pre-6', value = matchup['post-6'], inline = False)
+                embed.add_field(name = 'Post-6', value = matchup['post-6'], inline = False)
                 await message.channel.send(embed = embed)
             except KeyError:
                 return
