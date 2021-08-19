@@ -65,9 +65,9 @@ async def help(ctx):
             description = '**@Talon Bot <matchup>**',
             color = discord.Color.blue()
     )
-    embed3.add_field(name = 'Matchups', value = 'Ahri / Akali / Anivia / Annie / ASol / Azir / Brand / Cassiopeia / Chogath / Corki / Diana / Ekko / Fizz / Galio / Garen / Gragas / Heimerdinger / Irelia /\
- Jayce / Karma / Kassadin / Katarina / Leblanc / Lissandra / Lucian / Lux/ Malphite / Malzahar / Morgana / Neeko / Orianna / Pantheon / Pyke / Qiyana / Renekton / Rumble / Ryze / Seraphine / Sett / Swain /\
- Sylas / Syndra / Tristana / TwistedFate / Veigar / Velkoz / Viego / Viktor / Vladimir / Xerath / Yasuo / Yone / Zed / Ziggs / Zilean / Zoe', inline = False)
+    embed3.add_field(name = 'Matchups', value = 'Ahri / Akali / Akshan / Anivia / Annie / Aurelion Sol / Azir / Brand / Cassiopeia / Cho\'Gath / Corki / Diana / Ekko / Fizz / Galio / Garen / Gragas / Graves / Heimerdinger / Irelia /\
+ Jayce / Karma / Kassadin / Katarina / Leblanc / Lee Sin / Lissandra / Lucian / Lux / Malphite / Malzahar / Morgana / Neeko / Orianna / Pantheon / Pyke / Qiyana / Renekton / Rumble / Ryze / Seraphine / Sett / Swain /\
+ Sylas / Syndra / Tristana / Twisted Fate / Veigar / Vel\'Koz / Viego / Viktor / Vladimir / Xerath / Yasuo / Yone / Zed / Ziggs / Zilean / Zoe', inline = False)
     embed3.set_footer(text = 'Page 2 of 3')
     
     embed4 = discord.Embed(
