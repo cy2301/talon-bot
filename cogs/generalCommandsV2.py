@@ -244,7 +244,7 @@ class GeneralCommands(commands.Cog):
                         value = 'The gold standard. This works against every matchup.',
                         inline = False)
         embed.add_field(name = 'Doran\'s Blade + red pot',
-                        value = 'This is very good start for bruiser Talon. It is good against melee matchups as well as poke matchups. Less damage than LS and doesn\'t build into anything, but gives you extra HP and omnivamp. Buy this if you want more sustain in lane.',
+                        value = 'This is a very good start for bruiser Talon. It is good against melee matchups as well as poke matchups. Less damage than LS and doesn\'t build into anything, but gives you extra HP and omnivamp. Buy this if you want more sustain in lane.',
                         inline = False)
         embed.add_field(name = 'Doran\'s Shield + red pot',
                         value = 'Start this if you expect the poke to be very heavy. Examples being ADC matchups like Quinn or Lucian.',
