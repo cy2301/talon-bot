@@ -59,7 +59,7 @@ class GeneralCommands(commands.Cog):
                          value = 'Grants a reusable spell shield that\'s good against teams with CC or TF/Nocturne. Build this if you want damage, surviability, or want to deal with CC.',
                          inline = False)
         embed2.add_field(name = 'Youmuu’s Ghostblade', 
-                         value = 'Grants lethality, AH, 20% movement speed buff active, and out-of-combat movement speed. Since Ghostblade gives all the stats lethality Talon wants and strengthens with Talon\'s roams and rotations with the extra MS, it is a cost effective item to build second or even before your mythic.',
+                         value = 'Grants lethality, AH, 20% movement speed buff active, and out-of-combat movement speed. Since Ghostblade is a cost effective item that gives all the stats lethality Talon wants and strengthens Talon\'s roams and rotations with the extra MS, it should be built second or even before your mythic.',
                          inline = False)
         embed2.add_field(name = 'Serpent’s Fang', 
                          value = 'Anti-shield item, AA + abilities apply 50% shield debuff on all affected targets for 3 seconds. Effective against all shields except magic shields like Morgana’s. This item is best built as a second or third item, depending on how much you need anti-shield.',
