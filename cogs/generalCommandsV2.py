@@ -58,15 +58,14 @@ class GeneralCommands(commands.Cog):
         embed2.add_field(name = 'Edge of Night', 
                          value = 'Grants a reusable spell shield that\'s good against teams with CC or TF/Nocturne. Build this if you want damage, surviability, or want to deal with CC.',
                          inline = False)
+        embed2.add_field(name = 'Youmuu’s Ghostblade', 
+                         value = 'Grants lethality, AH, 20% movement speed buff active, and out-of-combat movement speed. Since Ghostblade gives all the stats lethality Talon wants and strengthens with Talon\'s roams and rotations with the extra MS, it is a cost effective item to build second or even before your mythic.',
+                         inline = False)
         embed2.add_field(name = 'Serpent’s Fang', 
-                         value = 'Anti-shield item, AA + abilities apply 50% shield debuff on all affected targets for 3 seconds. Effective against all shields except magic shields like Morgana’s.\
- Due to its low cost, it\'s one of the best lethality items to rush even if there are no shields on the enemy team.' ,
+                         value = 'Anti-shield item, AA + abilities apply 50% shield debuff on all affected targets for 3 seconds. Effective against all shields except magic shields like Morgana’s. This item is best built as a second or third item, depending on how much you need anti-shield.',
                          inline = False)
         embed2.add_field(name = 'Umbral Glaive', 
                          value = 'Disables and reveals wards nearby you, deal 3x damage to wards. Cheap and grants decent lethality. Build this if you want vision control, though Serpent\'s and oracle lenses is usually a better alternative.',
-                         inline = False)
-        embed2.add_field(name = 'Youmuu’s Ghostblade', 
-                         value = 'Grants lethality, 20% movement speed buff active, and out-of-combat movement speed. It is not a very good item due to its cost; however, you can build this if you want faster rotations or to gapclose faster.',
                          inline = False)
         embed2.set_footer(text = 'Page 2 of 3')
         
