@@ -133,7 +133,7 @@ class GeneralCommands(commands.Cog):
     async def displayBruiser(self,ctx):
         embed1 = discord.Embed(
             title = 'Bruiser items',
-            description = 'A pool of bruiser mythic items you should buy on bruiser Talon. Note that items from this list and the bruiser list can both be in the same build and that there is no definitive order to build them.',
+            description = 'A pool of bruiser mythic items you should buy on lethality Talon. Note that items from this list and the bruiser list can both be in the same build and that there is no definitive order to build them.',
             color = discord.Color.blue()
         )
         embed1.add_field(name = '★Goredrinker', 
