@@ -1,6 +1,8 @@
 # Talon Bot
 A discord bot created for the purpose of answering frequently asked questions about the champion Talon in League of Legends. Advice given by the bot is written by several Diamond ranked Talon mains.
 
+Note: Much of the current code is prior to JSON being utilized. Legacy code is in the process of switching over to a JSON format.
+
 # Commands
 Mention Talon Bot with an @. IE: @Talon Bot \<command\>
 - Conq
